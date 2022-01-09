@@ -85,3 +85,9 @@ input[type=submit] {
    font-size: 14px;
    margin-left: 30px;  
 }
+#vk {
+ position: fixed;
+ top: 450px;
+ right: 10px;
+
+}
