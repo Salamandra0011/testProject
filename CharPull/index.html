@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<title>Анкета</title>
+</head>
+<body>
+	<header>
+		<p class="titul"><img src="images/titul.png"></p>
+	</header>
+<p class="hello">
+	Чтобы образ получился достоверным, автор должен четко представлять себе все нюансы биографии и психологии героя. Анкета персонажа поможет автору избежать смысловых дыр и нестыковок. Благодаря разработанному досье вы сможете выстроить логичный сюжет, создадите живого объемного героя.<br>
+
+	 Анкета персонажа – это документ, подробно описывающий героя книги, новеллы, сценария, игры. Автор разрабатывает его до начала работы с произведением. На каждого значимого героя пишется отдельное досье. Документ должен включать такие блоки как происхождение героя и его бэкграунд, внешность, особенности характера, взаимосвязи и другое.<br>
+
+	Под этим документом могут также иметь виду «досье героя», «матрица героя» и даже «зарисовка героя» (хотя последнее скорее о чем-то более коротком).
+</p>
+
+	<form action="handler.php" method="POST">
+		<p>
+			<label for="firstName">Имя</label> 	<br>			
+			<input type="text" name="firstName" id="firstName" /><br>
+
+			<label for="lastName">Фамилия (и/или клан)</label> <br>
+			<input type="text" name="lastName" id="lastName" /><br>
+
+			<label for="gender">Пол</label>   <br>
+			<input type="text" name="gender" id="gender" /><br>
+
+			<label for="year">Возраст</label>   <br>
+			<input type="text" name="year" id="year" /><br>
+
+			<label for="race">Раса</label>		<br>			
+			<input type="text" name="race" id="race" /><br>
+
+			<label for="class">Класс</label>	<br>			 
+			<input type="text" name="class" id="class" /><br>
+
+			<label for="lvl">Уровень (если есть)</label>	<br>			 
+			<input type="text" name="lvl" id="lvl" /><br>
+
+			<label for="alignment" class="alignment">Мировоззрение</label>	<br>	 
+            <select name="alignment" id="alignment">
+	              <option value="LG">Lawful Good</option>
+	              <option value="LN">Lawful Neutral</option>
+	              <option value="LE">Lawful Evil</option>
+	              <option value="NG">Neutral Good</option>
+	              <option value="TN">True Neutral</option>
+	              <option value="NE">Neutral Evil</option>
+	              <option value="CG">Chaotic Good</option>
+	              <option value="CN">Chaotic Neutral</option>
+	              <option value="CE">Chaotic Evil</option> 
+            </select>
+		<br>
+			<label for="weapon">Вид оружия</label> <br>
+				<input type="checkbox" name="weapon" value="Огнестрельное"/> Огнестрельное <br>
+				<input type="checkbox" name="weapon" value="Холодное"/> Холодное <br>
+				<input type="checkbox" name="weapon" value="Древковое"/> Древковое <br>
+				<input type="checkbox" name="weapon" value="Метательное"/> Метательное <br>
+				<input type="checkbox" name="weapon" value="Футуристическое"/> Футуристическое <br>
+				<input type="checkbox" name="weapon" value="Магическое"/> Магическое <br>
+			<textarea>Подробности (класс оружия: меч, лук, посох, и т.д.)</textarea> 
+		<br>
+			<label for="magic">Магические способности</label> <br>
+				<input type="radio" name="magic" value="Да"/> Есть <br>
+				<input type="radio" name="magic" value="Нет"/> Нет <br>
+			<textarea>Подробности (класс или школа магии)</textarea> 
+		<br>
+			<label for="face">Внешность</label> <br>
+				<textarea>Описание внешности</textarea> 
+		<br>
+			<input name="myFile" type="file">
+		<br>
+			<label for="bio">Биография</label> <br>
+				<textarea></textarea>
+		<br>
+			<label for="dop">Дополнительно</label> <br>
+				<textarea></textarea>
+		<br>
+			<input type="submit" name="Отправить">
+		</p>
+	</form>
+</body>
+</html>

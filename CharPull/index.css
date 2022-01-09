@@ -1,0 +1,87 @@
+body {
+	background-color: #7A3030;
+
+
+}
+.titul {
+	text-align: center;
+}
+.hello {
+	background-color: #D2A4A0;
+	background-position: right;
+	border-style: double;
+	border-width: 5px;
+	/*margin-left: 250px;
+	margin-right: 250px;*/
+	text-align: center;
+	border-color: #CE5B5E;
+	color: #7A3030;
+	padding: 20px;
+	font-size: 18px;
+
+}
+form {
+	background-color: #CE5B5E;
+	border-style: double;
+	border-width: 5px;
+	border-color: #D2A4A0;
+	font-size: 20px;
+	/*position: absolute;
+    width: 994px; 
+    height: 550px; 
+    margin: auto; 
+    top: 850px; 
+    bottom: 20px; 
+    left: 250px; 
+    right: 250px; /* Положение блока от правого края */
+}
+form label {
+	background-color: #CE5B5E;
+    font-weight: bold;
+    color: #470000;
+    margin-left: 30px;
+    
+}
+input[type=text] {
+   width:200px;
+   height: 25px;
+   font-size: 25px;
+   margin-left: 30px;
+   
+}
+select {
+   width:200px;
+   height: 40px;
+   font-size: 20px;
+   margin-left: 30px;
+}
+textarea {
+	width: 500px;
+	height: 150px;
+	resize: none;
+	margin-left: 30px;
+}
+input[type=checkbox] {
+   width:50px;
+   height: 25px;
+   font-size: 25px;
+   margin-left: 30px;  
+}
+input[type=radio] {
+   width:50px;
+   height: 25px;
+   font-size: 25px;
+   margin-left: 30px;  
+}
+input[type=file] {
+   width:350px;
+   height: 25px;
+   font-size: 14px;
+   margin-left: 30px;  
+}
+input[type=submit] {
+   width:350px;
+   height: 40px;
+   font-size: 14px;
+   margin-left: 30px;  
+}
