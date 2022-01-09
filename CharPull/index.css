@@ -11,8 +11,6 @@ body {
 	background-position: right;
 	border-style: double;
 	border-width: 5px;
-	/*margin-left: 250px;
-	margin-right: 250px;*/
 	text-align: center;
 	border-color: #CE5B5E;
 	color: #7A3030;
@@ -26,14 +24,6 @@ form {
 	border-width: 5px;
 	border-color: #D2A4A0;
 	font-size: 20px;
-	/*position: absolute;
-    width: 994px; 
-    height: 550px; 
-    margin: auto; 
-    top: 850px; 
-    bottom: 20px; 
-    left: 250px; 
-    right: 250px; /* Положение блока от правого края */
 }
 form label {
 	background-color: #CE5B5E;
@@ -89,5 +79,15 @@ input[type=submit] {
  position: fixed;
  top: 450px;
  right: 10px;
-
 }
+.result {
+   background-color: #CE5B5E;
+   border-style: double;
+   border-width: 5px;
+   border-color: #D2A4A0;
+   font-weight: bold;
+   color: #470000;
+   font-size: 20px;
+   padding-left: 30px;
+}
+ 
