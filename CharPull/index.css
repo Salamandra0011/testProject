@@ -45,18 +45,18 @@ textarea {
 	width: 500px;
 	height: 150px;
 	resize: none;
-	margin-left: 30px;
+	margin: 10px 0px 0px 30px;
 }
 input[type=checkbox] {
-   width:50px;
-   height: 25px;
-   font-size: 25px;
+   width:20px;
+   height: 20px;
+   font-size: 20px;
    margin-left: 30px;  
 }
 input[type=radio] {
-   width:50px;
-   height: 25px;
-   font-size: 25px;
+   width:20px;
+   height: 20px;
+   font-size: 20px;
    margin-left: 30px;  
 }
 input[type=file] {

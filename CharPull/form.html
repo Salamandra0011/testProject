@@ -65,18 +65,56 @@
 	              <option value="CE">Chaotic Evil</option> 
             </select>
 		<br>
+		<table>
 			<label for="weapon">Вид оружия</label> <br>
-				<input type="checkbox" name="weapon" value="Огнестрельное"/> Огнестрельное <br>
-				<input type="checkbox" name="weapon" value="Холодное"/> Холодное <br>
-				<input type="checkbox" name="weapon" value="Древковое"/> Древковое <br>
-				<input type="checkbox" name="weapon" value="Метательное"/> Метательное <br>
-				<input type="checkbox" name="weapon" value="Футуристическое"/> Футуристическое <br>
-				<input type="checkbox" name="weapon" value="Магическое"/> Магическое <br>
+				
+					<tr>
+						<td><input type="checkbox" name="weapon" value="Огнестрельное"/></td> 
+						<td>Огнестрельное</td>
+					</tr> 
+
+					<tr>
+						<td><input type="checkbox" name="weapon" value="Холодное"/> </td>
+						<td>Холодное</td>
+					</tr> 
+
+					<tr>
+						<td><input type="checkbox" name="weapon" value="Древковое"/> </td>
+						<td>Древковое </td>
+					</tr>
+
+					<tr>
+						<td><input type="checkbox" name="weapon" value="Метательное"/> </td>
+						<td>Метательное </td>
+					<tr/>
+
+					<tr>
+						<td><input type="checkbox" name="weapon" value="Футуристическое"/> </td>
+						<td>Футуристическое</td>
+					</tr>
+
+					<tr>
+						<td><input type="checkbox" name="weapon" value="Магическое"/> </td>
+						<td>Магическое </td>
+					</tr>
+
+		</table>		
 			<textarea value="weaponDescription" name="weaponDescription"> Подробности (класс оружия: меч, лук, посох, и т.д.) </textarea> 
 		<br>
+
+		<table>
 			<label for="magic">Магические способности</label> <br>
-				<input type="radio" name="magic" value="Да"/> Есть <br>
-				<input type="radio" name="magic" value="Нет"/> Нет <br>
+				<tr>
+				<td><input type="radio" name="magic" value="Да"/> </td>
+				<td>Есть </td>
+				</tr>
+
+				<tr>
+				<td><input type="radio" name="magic" value="Нет"/> </td>
+					<td>Нет </td>
+				</tr>
+		</table>
+
 			<textarea value="magicDescription" name="magicDescription">Подробности (класс или школа магии)</textarea> 
 		<br>
 			<label for="face">Внешность</label> <br>
