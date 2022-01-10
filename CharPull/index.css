@@ -1,7 +1,5 @@
 body {
 	background-color: #7A3030;
-
-
 }
 .titul {
 	text-align: center;
@@ -16,7 +14,7 @@ body {
 	color: #7A3030;
 	padding: 20px;
 	font-size: 18px;
-
+   margin: 30px 0px 10px 0px;
 }
 form {
 	background-color: #CE5B5E;
@@ -29,15 +27,13 @@ form label {
 	background-color: #CE5B5E;
     font-weight: bold;
     color: #470000;
-    margin-left: 30px;
-    
+    margin-left: 30px;  
 }
 input[type=text] {
    width:200px;
    height: 25px;
    font-size: 25px;
-   margin-left: 30px;
-   
+   margin-left: 30px;  
 }
 select {
    width:200px;
@@ -91,8 +87,11 @@ input[type=submit] {
    padding: 30px;
 }
 nav {
-    background-color: #D2A4A0;
-   margin: 10px 10px 0px 10px;
+   background-color: #D2A4A0;
+   margin: 0px 0px 10px 0px;
+   border-style: double;
+   border-color: #470000;
+   border-width: 5px;
 }
 nav ul {
    margin: 0px;
@@ -103,10 +102,15 @@ nav ul li {
    display: inline;
    padding: 5px 10px 5px 10px;
 }
+a { 
+   text-decoration: none;
+}
 nav ul li a:link, nav ul li a:visited {
-   color: #954b4b;
    border-bottom: none;
    font-weight: bold;
+   color: #470000;
+   text-shadow: 1px 1px 3px #e2c2c2;
+   text-transform: uppercase; 
 }
 nav ul li.selected {
    background-color: #CE5B5E;
