@@ -24,6 +24,24 @@
  </a>
  </div>
 	<p class="result">
+		<?php  
+			$firstName = $_POST['firstName'];
+			$lastName = $_POST['lastName'];
+			$gender = $_POST['gender'];
+			$year = $_POST['year'];
+			$race = $_POST['race'];
+			$class = $_POST['class'];
+			$lvl = $_POST['lvl'];
+			$alignment = $_POST['alignment'];
+			$weapon = $_POST['weapon'];
+			$magic = $_POST['magic'];
+			$firstName = $_POST['firstName'];
+			$firstName = $_POST['firstName'];
+			$firstName = $_POST['firstName'];
+			$firstName = $_POST['firstName'];
+			$firstName = $_POST['firstName'];
+			$firstName = $_POST['firstName'];
+
 			Имя 	<br>
 			a <br>			
 			Фамилия (и/или клан) <br>
@@ -54,6 +72,7 @@
 			a <br>
 			Дополнительно <br>
 			a <br>
+		?>
 		</p>
 </body>
 </html>
