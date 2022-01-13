@@ -34,45 +34,35 @@
 			$lvl = $_POST['lvl'];
 			$alignment = $_POST['alignment'];
 			$weapon = $_POST['weapon'];
+			$weaponDescription = $_POST['weaponDescription'];
 			$magic = $_POST['magic'];
-			$firstName = $_POST['firstName'];
-			$firstName = $_POST['firstName'];
-			$firstName = $_POST['firstName'];
-			$firstName = $_POST['firstName'];
-			$firstName = $_POST['firstName'];
-			$firstName = $_POST['firstName'];
+			$magicDescription = $_POST['magicDescription'];
+			$faceDescription = $_POST['faceDescription'];
+			$bioDescription = $_POST['bioDescription'];
+			$dopDescription = $_POST['dopDescription'];
 
-			Имя 	<br>
-			a <br>			
-			Фамилия (и/или клан) <br>
-			a <br>
-			Пол  <br>
-			a <br>
-			Возраст   <br>
-			a <br>
-			Раса	<br>
-			a <br>			
-			Класс	<br>
-			a <br>			 
-			Уровень (если есть) <br>
-			a <br>
-			Мировоззрение	<br>
-			a <br>	 
-			Вид оружия <br>
-			a <br>
-			Подробности (класс оружия: меч, лук, посох, и т.д.) <br>
-			a <br>
-			Магические способности <br>
-			a <br>
-			Подробности (класс или школа магии) <br>
-			a <br>
-			Внешность <br>
-			a <br>
-			Биография <br>
-			a <br>
-			Дополнительно <br>
-			a <br>
+		    echo ' Имя ' . $firstName . '<br />';
+			echo ' Фамилия (и/или клан) ' . $lastNameName . '<br />';
+			echo ' Пол ' . $gender . '<br />';
+			echo ' Возраст ' . $year . '<br />';
+			echo ' Раса ' . $race . '<br />';
+			echo ' Класс ' . $class . '<br />';
+			echo ' Уровень (если есть) ' . $lvl . '<br />';
+			echo ' Мировоззрение ' . $alignment . '<br />';
+			echo ' Вид оружия ' . $weapon . '<br />';
+			echo ' Подробности (класс оружия: меч, лук, посох, и т.д.) ' . $weaponDescription . '<br />';
+			echo ' Магические способности ' . $magic . '<br />';
+			echo ' Подробности (класс или школа магии) ' . $magicDescription . '<br />';
+			echo ' Внешность ' . $faceDescription . '<br />';
+			echo ' Биография ' . $bioDescription . '<br />';
+			echo ' Дополнительно ' . $ddopDescription . '<br />';
 		?>
 		</p>
+    <nav>
+        <ul>
+   <li> <a href="list/form.html" title="Назад">Назад</a></li> <br>
+    <li><a href="index.html" title="На главную">На главную</a></li>
+        </ul>
+    </nav>
 </body>
 </html>
