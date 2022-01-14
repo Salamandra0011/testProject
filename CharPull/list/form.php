@@ -33,7 +33,7 @@
 			$class = $_POST['class'];
 			$lvl = $_POST['lvl'];
 			$alignment = $_POST['alignment'];
-			$weapon = $_POST['weapon'];
+			$weapon[] = $_POST['weapon'];
 			$weaponDescription = $_POST['weaponDescription'];
 			$magic = $_POST['magic'];
 			$magicDescription = $_POST['magicDescription'];
@@ -41,21 +41,21 @@
 			$bioDescription = $_POST['bioDescription'];
 			$dopDescription = $_POST['dopDescription'];
 
-		    echo ' Имя ' . $firstName . '<br />';
-			echo ' Фамилия (и/или клан) ' . $lastNameName . '<br />';
-			echo ' Пол ' . $gender . '<br />';
-			echo ' Возраст ' . $year . '<br />';
-			echo ' Раса ' . $race . '<br />';
-			echo ' Класс ' . $class . '<br />';
-			echo ' Уровень (если есть) ' . $lvl . '<br />';
-			echo ' Мировоззрение ' . $alignment . '<br />';
-			echo ' Вид оружия ' . $weapon . '<br />';
-			echo ' Подробности (класс оружия: меч, лук, посох, и т.д.) ' . $weaponDescription . '<br />';
-			echo ' Магические способности ' . $magic . '<br />';
-			echo ' Подробности (класс или школа магии) ' . $magicDescription . '<br />';
-			echo ' Внешность ' . $faceDescription . '<br />';
-			echo ' Биография ' . $bioDescription . '<br />';
-			echo ' Дополнительно ' . $ddopDescription . '<br />';
+		    echo ' Имя: ' . '<br />' . $firstName . '<br />';
+			echo ' Фамилия (и/или клан): ' . '<br />' . $lastName . '<br />';
+			echo ' Пол: ' . '<br />' . $gender . '<br />';
+			echo ' Возраст: ' . '<br />' . $year . '<br />';
+			echo ' Раса: ' . '<br />' . $race . '<br />';
+			echo ' Класс: ' . '<br />' . $class . '<br />';
+			echo ' Уровень (если есть): ' . '<br />' . $lvl . '<br />';
+			echo ' Мировоззрение: ' . '<br />' . $alignment . '<br />';
+			echo ' Вид оружия: ' . '<br />' . $weapon . '<br />';
+			echo ' Подробности (класс оружия: меч, лук, посох, и т.д.): ' . '<br />' . $weaponDescription . '<br />';
+			echo ' Магические способности: ' . '<br />' . $magic . '<br />';
+			echo ' Подробности (класс или школа магии): ' . '<br />' . $magicDescription . '<br />';
+			echo ' Внешность: ' . '<br />' . $faceDescription . '<br />';
+			echo ' Биография: ' . '<br />' . $bioDescription . '<br />';
+			echo ' Дополнительно: ' . '<br />' . $dopDescription . '<br />';
 		?>
 		</p>
     <nav>
