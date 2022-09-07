@@ -24,7 +24,8 @@
  </a>
  </div>
 	<p class="result">
-		<?php  
+
+		<?php
 			$firstName = $_POST['firstName'];
 			$lastName = $_POST['lastName'];
 			$gender = $_POST['gender'];
@@ -33,7 +34,7 @@
 			$class = $_POST['class'];
 			$lvl = $_POST['lvl'];
 			$alignment = $_POST['alignment'];
-			$weapon[] = $_POST['weapon'];
+			$weapon = $_POST['weapon'];
 			$weaponDescription = $_POST['weaponDescription'];
 			$magic = $_POST['magic'];
 			$magicDescription = $_POST['magicDescription'];
@@ -41,21 +42,21 @@
 			$bioDescription = $_POST['bioDescription'];
 			$dopDescription = $_POST['dopDescription'];
 
-		    echo ' Имя: ' . '<br />' . $firstName . '<br />';
-			echo ' Фамилия (и/или клан): ' . '<br />' . $lastName . '<br />';
-			echo ' Пол: ' . '<br />' . $gender . '<br />';
-			echo ' Возраст: ' . '<br />' . $year . '<br />';
-			echo ' Раса: ' . '<br />' . $race . '<br />';
-			echo ' Класс: ' . '<br />' . $class . '<br />';
-			echo ' Уровень (если есть): ' . '<br />' . $lvl . '<br />';
-			echo ' Мировоззрение: ' . '<br />' . $alignment . '<br />';
-			echo ' Вид оружия: ' . '<br />' . $weapon . '<br />';
-			echo ' Подробности (класс оружия: меч, лук, посох, и т.д.): ' . '<br />' . $weaponDescription . '<br />';
-			echo ' Магические способности: ' . '<br />' . $magic . '<br />';
-			echo ' Подробности (класс или школа магии): ' . '<br />' . $magicDescription . '<br />';
-			echo ' Внешность: ' . '<br />' . $faceDescription . '<br />';
-			echo ' Биография: ' . '<br />' . $bioDescription . '<br />';
-			echo ' Дополнительно: ' . '<br />' . $dopDescription . '<br />';
+		    echo ' Имя: ' . '<br/>' . $firstName . '<br/>';
+			echo ' Фамилия (и/или клан): ' . '<br>' . $lastName . '<br/>';
+			echo ' Пол: ' . '<br/>' . $gender . '<br/>';
+			echo ' Возраст: ' . '<br/>' . $year . '<br/>';
+			echo ' Раса: ' . '<br/>' . $race . '<br/>';
+			echo ' Класс: ' . '<br/>' . $class . '<br/>';
+			echo ' Уровень (если есть): ' . '<br/>' . $lvl . '<br/>';
+			echo ' Мировоззрение: ' . '<br/>' . $alignment . '<br/>';
+			echo ' Вид оружия: ' . '<br/>' . $weapon . '<br/>';
+			echo ' Подробности (класс оружия: меч, лук, посох, и т.д.): ' . '<br/>' . $weaponDescription . '<br />';
+			echo ' Магические способности: ' . '<br/>' . $magic . '<br/>';
+			echo ' Подробности (класс или школа магии): ' . '<br/>' . $magicDescription . '<br/>';
+			echo ' Внешность: ' . '<br/>' . $faceDescription . '<br/>';
+			echo ' Биография: ' . '<br/>' . $bioDescription . '<br/>';
+			echo ' Дополнительно: ' . '<br/>' . $dopDescription . '<br/>';
 		?>
 		</p>
     <nav>
